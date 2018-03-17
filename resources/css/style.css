@@ -46,7 +46,8 @@ a {
 }
 /* mission */
 .mission {
-  top: 69px;
+  position: relative;
+  top: 62px;
   background-image: url("../../resources/images/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
@@ -61,7 +62,56 @@ a {
   width: 100%;
 }
 
-h2,
-h4 {
+.description h2,
+.description h4 {
   margin: 18px;;
+}
+/* featured */
+.featured {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+}
+
+.sorts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.sort {
+  margin: 0 14px;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.image.berryblitz {
+  background-image: url("../../resources/images/img-berryblitz.jpg");
+}
+
+.image.spiced-rum {
+  background-image: url("../../resources/images/img-spiced-rum.jpg");
+}
+
+.image.donut {
+  background-image: url("../../resources/images/img-donut.jpg");
+}
+
+.image.myrtle-ave {
+  background-image: url("../../resources/images/img-myrtle-ave.jpg");
+}
+
+.image.bedford-bizarre {
+  background-image: url("../../resources/images/img-bedford-bizarre.jpg");
+}
+
+.name {
+  margin-top: 10px;
+  text-align: center;
 }
