@@ -16,21 +16,17 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  padding: 0 10px;
-  z-index: 5;
-}
-
-.logo {
-  position: relative;
 }
 
 .logo img {
   height: 50px;
+  margin-left: 10px;
 }
 
 .nav {
@@ -47,14 +43,13 @@ a {
 }
 /* mission */
 .mission {
-  position: relative;
-  top: 62px;
   background-image: url("../../resources/images/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: 69px auto;
+  position: relative;
 }
 
 .description {
@@ -64,13 +59,13 @@ a {
 
 .description h2,
 .description h4 {
-  margin: 18px;;
+  margin: 18px;
 }
 /* featured */
 .featured {
   width: 1000px;
-  margin: 120px auto;
-  position: relative;
+  margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .sorts {
@@ -119,7 +114,6 @@ a {
   height: 500px;
   margin: 0 auto;
   background-image: url("../../resources/images/img-locations-background.jpg");
-  background-position: center;
   display: flex;
   flex-wrap: wrap;
   display: flex;
@@ -134,7 +128,7 @@ a {
 .location {
   display: flex;
   justify-content: center;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 
 .address {
@@ -146,7 +140,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px;
+  margin: 15px 20px;
 }
 /* contact */
 .contact {
@@ -155,4 +149,5 @@ a {
 /* footer */
 .footer h5 {
   margin-left: 20px;
+  text-align: left;
 }
