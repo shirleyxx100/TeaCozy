@@ -5,6 +5,7 @@ body {
   background-color: black;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
 
 /* header */
@@ -58,7 +59,6 @@ a {
 
 .description {
   background-color: black;
-  text-align: center;
   width: 100%;
 }
 
@@ -69,9 +69,8 @@ a {
 /* featured */
 .featured {
   width: 1000px;
-  margin: 0 auto;
+  margin: 120px auto;
   position: relative;
-  top: 120px;
 }
 
 .sorts {
@@ -113,5 +112,47 @@ a {
 
 .name {
   margin-top: 10px;
-  text-align: center;
+}
+/* locations */
+.locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+}
+
+.locations h2 {
+  width: 100%;
+  margin: 0;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.address {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+/* contact */
+.contact {
+  height: 200px;
+}
+/* footer */
+.footer h5 {
+  margin-left: 20px;
 }
